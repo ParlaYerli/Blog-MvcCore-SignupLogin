@@ -1,0 +1,15 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+@using (Html.BeginForm())
+{
+
+<body>
+    <a asp-action="LogIn" style=""> Giriş Yap </a>
+    <a asp-action="SignUp"> Kayıt Ol </a>
+</body>
+}
